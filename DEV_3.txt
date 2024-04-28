@@ -1,1 +1,5 @@
-dev 3 file sample
+dev 3 file sample codes
+here are the codes:
+example 1
+example 2
+example 3
