@@ -11,7 +11,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Start SSH agent
-        run: eval $(ssh-agent -s)
+        run: |
+          eval $(ssh-agent -s)
+          ssh-add -L
 
       - name: Set up SSH
         run: |
