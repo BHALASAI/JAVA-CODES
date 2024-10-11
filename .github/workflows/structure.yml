@@ -10,6 +10,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Start SSH agent
+        run: eval $(ssh-agent -s)
+
       - name: Set up SSH
         run: |
           mkdir -p ~/.ssh
