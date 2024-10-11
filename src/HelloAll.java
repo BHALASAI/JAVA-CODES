@@ -1,9 +1,9 @@
 /**
  * This class contains the main method which prints "Hello World".
  */
-public class HelloAll {
+public final class HelloAll {
     private HelloAll() {
-        throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
+        throw new UnsupportedOperationException("cannot be instantiated");
     }
 
     /**
