@@ -5,8 +5,8 @@ import java.util.Collections;
 
 //Creating a test class to sort the elements
 public class TestSort1 {
-    public static void main(String args[]) {
-        ArrayList<Student> al = new ArrayList<Student>();
+    public static void main(String[] args) {
+        ArrayList<Student> al = new ArrayList<>();
         al.add(new Student(101, "Vijay", 23));
         al.add(new Student(106, "Ajay", 27));
         al.add(new Student(105, "Jai", 21));
